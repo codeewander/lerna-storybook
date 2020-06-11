@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "@material-ui/icons": "^4.9.1",
+    "@storybook/addon-docs": "^5.3.19",
+    "@storybook/addon-knobs": "^5.3.19",
+    "@storybook/cli": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0",
+    "lerna": "^3.22.1",
+    "react": "^16.13.1",
+    "storybook-readme": "^5.0.8",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "name": "lerna-project",
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "storybook": "start-storybook -p 5555",
+    "build-storybook": "build-storybook -c .storybook -o .out",
+    "build": "lerna exec yarn run \"build\"",
+    "publish": "lerna publish"
+  },
+  "repository": "http://10.136.154.2:9900/cornerstone-common-module/frontend/cbp-component-library.git",
+  "author": "Kira Yang <changru.yang02@gmail.com>",
+  "license": "MIT"
+}

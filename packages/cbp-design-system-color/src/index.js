@@ -1,0 +1,8 @@
+export { default as MAIN_COLORS } from './colors/mainColor'
+export { default as RED_FAMILY } from './colors/redColor'
+export { default as GRAY_FAMILY} from './colors/neutralColor'
+export { default as SECONDARY_COLORS} from './colors/secondaryColor'
+export { default as GREEN_FAMILY } from './colors/greenColor'
+export { default as YELLOW_FAMILY } from './colors/yellowColor'
+export { default as PURPLE_FAMILY } from './colors/purpleColor'
+export { default as BLUE_FAMILY } from './colors/blurColor'

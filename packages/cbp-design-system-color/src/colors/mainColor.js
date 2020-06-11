@@ -1,0 +1,8 @@
+const MAIN_COLORS = {
+    PRIMARY_BLUE: '#00ADEF',
+    PRIMARY_GRAY: '#727171',
+    PRIMARY_DARKGRAY: '#53565A',
+}
+
+
+export default  MAIN_COLORS 
