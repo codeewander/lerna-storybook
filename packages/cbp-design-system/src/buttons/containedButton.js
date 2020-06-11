@@ -44,13 +44,11 @@ const containedButton =(props)=>{
         color: ${GRAY_FAMILY.N20} !important;
     }`
 
-    if(props.disabled === 'disabled'){
-        return  <ContainDisabled variant="contained" {...props} disabled>{props.children} </ContainDisabled>
-    }else{
-        return (
-            <ContainButton variant="contained" {...props}>{props.children}</ContainButton>
-        )
-    }
+   
+    return (
+        <ContainButton variant="contained" {...props}>{props.children}</ContainButton>
+    )
+    
 }
 
 export default containedButton  
