@@ -1,6 +1,6 @@
 {
     "name": "@cbp/cbp-design-system-color",
-    "version": "0.0.5",
+    "version": "0.0.1",
     "main": "lib/index.js",
     "module": "src/index.js",
     "dependencies": {
