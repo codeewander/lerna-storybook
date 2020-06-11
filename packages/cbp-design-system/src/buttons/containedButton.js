@@ -46,7 +46,7 @@ const containedButton =(props)=>{
 
    
     return (
-        <ContainButton variant="contained" {...props}>{props.children}</ContainButton>
+        <ContainButton variant="contained">{props.children}</ContainButton>
     )
     
 }
